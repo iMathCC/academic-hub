@@ -19,3 +19,13 @@ Uma disciplina pode ter múltiplas fontes de atividades.
 ## Regra #12
 
 Uma entidade nunca deve duplicar informações de outra entidade.
+
+# Decisão 3
+
+Evento deixa de existir como entidade independente.
+
+Todo evento será modelado como um Compromisso.
+
+Motivo:
+
+Evitar duplicação de responsabilidades.

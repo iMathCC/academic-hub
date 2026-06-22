@@ -1,6 +1,6 @@
 from dataclasses import dataclass
+from models.compromisso import Compromisso
 
 @dataclass
-class agendaSemanal:
-    compromisso:str
-    a
+class AgendaSemanal:
+    dias : dict[str, list[Compromisso]]

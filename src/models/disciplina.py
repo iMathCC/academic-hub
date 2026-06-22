@@ -1,4 +1,5 @@
 from dataclasses import dataclass
+from models.professor import Professor
 
 @dataclass
 class Disciplina:
