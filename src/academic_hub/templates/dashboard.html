@@ -2,7 +2,31 @@
 
 {% block content %}
 
-<h2>Dashboard MVP</h2>
-<p>Bem-vindo ao Academic Hub!</p>
+<h2>
+    
+    Dashboard
 
-{% endblocked %}
+</h2>
+
+<h2>Próxima aula</h2>
+<p>{{ dashboard.proxima_aula.disciplina }} </p>
+<p>{{ dashboard.proxima_aula.horario }} </p>
+<p>{{ dashboard.proxima_aula.sala }} </p>
+
+<h2>Pendências</h2>
+
+<ul>
+{% for item in dashboard.pendencias %}
+    <li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+<h2>Agenda de hoje</h2>
+
+<ul>
+{% for item in dashboard.agenda_hoje %}
+    <li>{{ item }}</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

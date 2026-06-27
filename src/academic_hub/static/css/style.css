@@ -1,0 +1,23 @@
+body {
+
+    background: #f6f6fb;
+
+}
+
+.nav-link {
+
+    color: #555;
+
+}
+
+.nav-link:hover {
+
+    color: #6f42c1;
+
+}
+
+.navbar {
+
+    height: 60px;
+
+}
