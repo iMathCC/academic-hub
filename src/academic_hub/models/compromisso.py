@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from datetime import date
-from enums.origem import Origem
-from enums.tipo_compromisso import TipoCompromisso
+from academic_hub.enums.origem import Origem
+from academic_hub.enums.tipo_compromisso import TipoCompromisso
 from modelis.disciplina import Disciplina
 
 
